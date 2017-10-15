@@ -4,18 +4,22 @@
     <title>Imagine Anything s.r.o.</title>
     <meta charset="UTF-8">
     <style>
+      html {
+        height: 100%;
+      }
+
       body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         text-align: center;
         font-family: Helvetica, Arial;
       }
 
-      .card {
-        margin-top: 18%;
-      }
-
       .card h1 {
         margin-bottom: 10px;
-
       }
 
       .apps {
@@ -26,28 +30,24 @@
         margin-left: 5px;
         margin-right: 5px;
       }
+
+      .logo {
+        max-width: 300px;
+      }
     </style>
-
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-55961885-1', 'auto');
-      ga('send', 'pageview');
-    </script>
   </head>
 
   <body>
     <div class="card">
+      <img src="logo_rgb.jpg" alt="logo" class="logo" />
+
       <h1>Imagine Anything s.r.o.</h1>
       <strong>IČO:</strong> 291 37 420
-    </div>
-
-    <div class="apps">
-      <a href="http://blaznivekomedie.cz">blaznivekomedie.cz</a>
+      <div class="apps">
+        <a href="http://blaznivekomedie.cz">blaznivekomedie.cz</a>
+        <a href="http://blaznivekomedie.cz">eetsymbio.cz</a>
+        <a href="http://blaznivekomedie.cz">damedata.cz</a>
+      </div>
     </div>
   </body>
 </html>
